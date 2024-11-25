@@ -1,0 +1,24 @@
+{
+  "name": "presentation-solid",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "vitest",
+    "quality:check": "biome check .",
+    "quality:fix": "biome check --write ."
+  },
+  "author": "Xavier Balloy",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@tsconfig/node22": "22.0.0",
+    "@tsconfig/strictest": "2.0.5",
+    "typescript": "5.7.2",
+    "vitest": "2.1.5"
+  },
+  "dependencies": {
+    "@types/big.js": "6.2.2",
+    "@types/node": "22.8.6",
+    "big.js": "6.2.2"
+  }
+}
